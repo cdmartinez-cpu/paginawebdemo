@@ -1,0 +1,54 @@
+h1{
+	color: #0889c9 ;
+	font-size: 100px;
+	text-align: center;
+	font-family: "Brush Script MT";
+}
+
+h2{
+	color: #9c32d9 ;
+	font-size: 50px;
+	text-align: center;
+	font-family: "Lucida Handwriting";
+}
+
+p{
+	color: #bd044b ;
+	font-size: 30px;
+	text-align: center;
+	font-family: "Copperplate";
+}
+body{
+	background-image: url("sol y luna.jpg") ;
+	background-repeat:cover ;
+}
+.destacado{
+	background-color: #a85202;
+	font-family: "Times New Roman";
+	font-size: 80px;
+}
+div {
+	background-color: #06b4d6;
+	font-size: 30px;
+}
+#caja {
+    background-color: #4e0373;
+    border: 20px solid red;
+    padding: 40px;
+    margin-top: 2px;
+    border-radius: 100px; 
+}
+button {
+    background-color: #3498db;
+    color: white;
+    border: 20px ;
+    padding: 10px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 10s ease;
+}
+
+button:hover {
+    background-color: #2980b9;
+    transform: scale(0.05);  
+}
